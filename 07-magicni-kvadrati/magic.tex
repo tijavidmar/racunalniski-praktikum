@@ -9,21 +9,26 @@
 \usepackage{amsthm}
 \usepackage{booktabs}
 \usepackage{amsmath}
+\usepackage{xcolor}
+
 
 % Nastavimo koliko prostora izpustimo pod napisom nad sliko ali tabelo.
 \setlength{\belowcaptionskip}{2mm}
 % Nastavimo odmik prve vrstice v odstavku na 0mm.
 \setlength{\parindent}{0mm}
 
-{\theoremstyle{plain}
+{
+\theoremstyle{plain}
 \newtheorem{izrek}{Izrek}
 }
 
-{\theoremstyle{definition}
+{
+\theoremstyle{definition}
 \newtheorem{definicija}{Definicija}
 }
 
 \newcommand{\m}{\mathcal{M}}
+\newcommand{\pojem}[1]{\emph{\color{purple}#1}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Prvi sklop nalog
@@ -75,7 +80,7 @@ Prirejeno iz virov:
 \section{Uvod}
 
 \begin{definicija}
-   \emph{Magični kvadrat} reda $n$ je nabor $n^2$ različnih števil,
+   \pojem{Magični kvadrat} reda $n$ je nabor $n^2$ različnih števil,
    ki so razvrščena v kvadratno tabelo tako, da vedno dobimo enako vsoto,
    če seštejemo vsa števila poljubne vrstice, vsa števila poljubnega
    stolpca ali vsa števila v katerikoli od glavnih diagonal.
@@ -100,7 +105,7 @@ Primer magičnega kvadrata reda 3 je prikazan v tabeli~\ref{table:mag3}.
 % Konec magičnega kvadrata
 
 \begin{definicija}
-   Magični kvadrat reda $n$ je \emph{normalen}, če v njem nastopajo števila
+   Magični kvadrat reda $n$ je \pojem{normalen}, če v njem nastopajo števila
    \begin{equation}
       % oznaka: eq:numbers
       \label{eq:numbers}
@@ -119,7 +124,7 @@ Poleg normalnih magičnih kvadratov so zanimivi tudi magični kvadrati praštevi
 \subsection{Kvadrat ">Lo Shu"<}
 
 Kitajska literatura iz časa vsaj 2800 let pred našim štetjem govori o legendi
-\emph{Lo Shu} -- ">zvitek reke Lo"<. V antični Kitajski je prišlo do
+\pojem{Lo Shu} -- ">zvitek reke Lo"<. V antični Kitajski je prišlo do
 silne poplave. Ljudje so skušali rečnemu bogu narasle reke Lo ponuditi daritev,
 da bi pomirili njegovo jezo. Iz vode se je prikazala želva z zanimivim vzorcem
 na oklepu: v tabeli velikosti tri krat tri so bila predstavljena števila, tako
@@ -145,7 +150,7 @@ v številnih kulturah, npr.\ v Egiptu in Indiji, vklesane v kamen ali
 kovino, uporabljane kot talismane za dolgo življensko dobo in v
 izogib boleznim.
 
-\emph{Kubera-Kolam} je talna poslikava, ki se uporablja v Indiji, in je v
+\pojem{Kubera-Kolam} je talna poslikava, ki se uporablja v Indiji, in je v
 obliki magičnega kvadrata reda 3. Ta je v bistvu enak kot kvadrat
 Lo Shu, vendar je vsako število povečano za 19.
 
@@ -232,8 +237,8 @@ in zato kvadrat ni normalen.
 \section{Osnovne lastnosti}
 
 \begin{definicija}
-      Vsoto ene vrstice, enega stolpca ali ene od glavnih diagonal
-      v magičnem kvadratu imenujemo \emph{magična konstanta}.
+   Vsoto ene vrstice, enega stolpca ali ene od glavnih diagonal
+   v magičnem kvadratu imenujemo \pojem{magična konstanta}.
 \end{definicija}
 
 \begin{izrek}
@@ -268,7 +273,7 @@ Kvadratu v tabeli ?!? ustrezata konstanti $A=20$ in $D=1$.
 \begin{definicija}
       Če vsako od števil v normalnem magičnem kvadratu reda $n$ odštejemo
       od števila $n^2+1$, dobimo nov magični kvadrat, ki je prvotnemu
-      \emph{komplementaren}.
+      \pojem{komplementaren}.
 \end{definicija}
 
 Na primer, magičnemu kvadratu Lo Shu (glej tabelo ?!?) priredimo
@@ -287,7 +292,7 @@ iz kvadrata Lo Shu z zrcaljenjem preko sredinske vodoravne črte.
 Število različnih normalnih magičnih kvadratov
 
 \begin{definicija}
-      Pravimo, da sta dva magična kvadrata \emph{različna}, če enega ni mogoče dobiti
+      Pravimo, da sta dva magična kvadrata \pojem{različna}, če enega ni mogoče dobiti
       iz drugega s pomočjo zasukov oziroma zrcaljenj.
 \end{definicija}
 
