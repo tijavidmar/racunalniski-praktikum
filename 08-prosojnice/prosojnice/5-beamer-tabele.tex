@@ -3,8 +3,11 @@
 	\begin{center}
 		\begin{tabular}{c|cccc}
 		   Oznaka & A & B & C & D \\ \hline
+		\pause
 		   X & 1 & 2 & 3 & 4 \\
+		\pause
 		   Y & 3 & 4 & 5 & 6 \\
+		\pause
 		   Z & 5 & 6 & 7 & 8
 		\end{tabular}
 	\end{center}
@@ -16,10 +19,10 @@
 
 	\begin{center}
 		\begin{tabular}{c|>{\onslide<2->}cccc<{\onslide}}
-		   Oznaka & A & B & C & D \\ \hline
-		   X & 1 & 2 & 3 & 4 \\
-		   Y & 3 & 4 & 5 & 6 \\
-		   Z & 5 & 6 & 7 & 8
+		   Oznaka & \onslide<2->{A} & \onslide<3->{B} & \onslide<4->{C} & \onslide<5>{D} \\ \hline
+		   X & \onslide<2->{1} & \onslide<3->{2} & \onslide<4->{3} & \onslide<5>{4}\\
+		   Y & \onslide<2->{3} & \onslide<3->{4} & \onslide<4->{5} & \onslide<5>{6} \\
+		   Z & \onslide<2->{5} & \onslide<3->{6} & \onslide<4->{7} & \onslide<5>{8}
 		\end{tabular}
 	\end{center}
 \end{frame}
