@@ -48,18 +48,20 @@
 \headcommand {\beamer@framepages {26}{32}}
 \headcommand {\slideentry {4}{0}{3}{33/39}{}{0}}
 \headcommand {\beamer@framepages {33}{39}}
-\headcommand {\beamer@sectionpages {25}{39}}
-\headcommand {\beamer@subsectionpages {25}{39}}
-\headcommand {\sectionentry {5}{Paket \texttt {beamer} in tabele}{40}{Paket \texttt {beamer} in tabele}{0}}
-\headcommand {\slideentry {5}{0}{1}{40/40}{}{0}}
+\headcommand {\slideentry {4}{0}{4}{40/40}{}{0}}
 \headcommand {\beamer@framepages {40}{40}}
-\headcommand {\beamer@sectionpages {40}{40}}
-\headcommand {\beamer@subsectionpages {40}{40}}
-\headcommand {\sectionentry {6}{Matematika, 2. del\\\large {Zaporedja, algebra, grupe}}{41}{Matematika, 2. del}{0}}
-\headcommand {\slideentry {6}{0}{1}{41/41}{}{0}}
+\headcommand {\beamer@sectionpages {25}{40}}
+\headcommand {\beamer@subsectionpages {25}{40}}
+\headcommand {\sectionentry {5}{Paket \texttt {beamer} in tabele}{41}{Paket \texttt {beamer} in tabele}{0}}
+\headcommand {\slideentry {5}{0}{1}{41/41}{}{0}}
 \headcommand {\beamer@framepages {41}{41}}
-\headcommand {\beamer@partpages {1}{41}}
-\headcommand {\beamer@subsectionpages {41}{41}}
 \headcommand {\beamer@sectionpages {41}{41}}
-\headcommand {\beamer@documentpages {41}}
-\headcommand {\gdef \inserttotalframenumber {15}}
+\headcommand {\beamer@subsectionpages {41}{41}}
+\headcommand {\sectionentry {6}{Matematika, 2. del\\\large {Zaporedja, algebra, grupe}}{42}{Matematika, 2. del}{0}}
+\headcommand {\slideentry {6}{0}{1}{42/42}{}{0}}
+\headcommand {\beamer@framepages {42}{42}}
+\headcommand {\beamer@partpages {1}{42}}
+\headcommand {\beamer@subsectionpages {42}{42}}
+\headcommand {\beamer@sectionpages {42}{42}}
+\headcommand {\beamer@documentpages {42}}
+\headcommand {\gdef \inserttotalframenumber {16}}
